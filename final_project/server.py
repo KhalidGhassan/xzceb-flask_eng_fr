@@ -1,5 +1,5 @@
-from project.machinetranslation import translator
-from project.machinetranslation.translator import englishToFrench, frenchToEnglish
+from machinetranslation import translator
+from machinetranslation.translator import englishToFrench, frenchToEnglish
 from flask import Flask, render_template, request
 import json
 
